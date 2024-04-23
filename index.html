@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+
+<head>
+  <!--Meta Data-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold, Hot, with JS</title>
+  <meta name="author" content="Gustav Ihlenfeld">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (1)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (1)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io (1)/site.webmanifest">
+</head>
+
+<body>
+  <!--Header-->
+  <h1><i><b>Cold, Hot, with JS</b></i></h1>
+  <h4>Creator: Gustav Ihlenfeld</h4>
+  <h4>Class: ICD2O - Technology and Innovations</h4>
+
+  <!--Image-->
+  <img src="./images/temp.jpg" alt="temp" style="float: right; margin: 0 10px;">
+
+  <p><b><u>Enter the current temperature for you:</u></b></p>
+  <!--Input-->
+  <label for="temperature"><b><u>Temperature (°C):</u></b></label>
+  <input type="number" id="temperature">
+  <br><br>
+
+  <!--Submit Button-->
+  <button onclick="calculateTemperature()">Submit</button>
+
+  <!-- Result Display -->
+  <p id="result"></p>
+
+  <!-- JavaScript -->
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

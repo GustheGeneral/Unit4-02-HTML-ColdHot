@@ -1,4 +1,32 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+/*CSS FILE FOR INDEX.HTML*/ 
+/*CREATED BY : GUSTAV I*/
+
+h1 {
+  text-align: center;
+  background-color: darkslategrey;
+  padding : 25px;
+  color : #ffff
+}
+
+h4 {
+  text-align: center;
+  background-color: darkslategrey;
+  padding : 10 px;
+  color: #ffff;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+  background-color: darkslategrey;
+  color: #ffff;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 9px;
+  border: 2px solid #ffff;
+}
